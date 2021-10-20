@@ -35,10 +35,10 @@ navigate to kubernetes-files, kubernetes deployment file can be use to deploy mi
 Run command: 
 	kubectl create -f *-deployment.yml
 
-** Metrics** <br/>
-Actuators can be use to get metrics information. Access http://<nodeip>:<nodeport>/actuator/info to get node info, http://<nodeip>:<nodeport>/actuator/metrics to get metrics. 
+<u><strong> Metrics </u></strong> <br/>
+Actuators can be use to get metrics information. Access '/actuator/info' to get node info, '/actuator/metrics' to get metrics. 
 
 Prometheus micrometer dependency cam also be added to get all metrics from actuator 
 
-**Swagger documentation **
-Swagger documentation can be accessed via http://<nodeip>:<nodeport>/swagger-ui/
+<u><strong>Swagger documentation </u></strong><br/>
+Swagger documentation can be accessed via '/swagger-ui/'
